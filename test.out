@@ -1,0 +1,27 @@
+Candidates:
+   - a: Jane Doe
+   - b: John Smith
+   - c: Ren Gill
+   - d: Eric Idle
+   - e: None of the above
+Number of winners: 1
+{'actions': [{'edges': {(('d',), ('c',))}}, {'nodes': {('d',)}}],
+ 'candidates': {'c', 'd'},
+ 'winners': {'c'}}
+Pairwise results:
+   - Jane Doe vs John Smith: Jane Doe (180)
+   - Jane Doe vs Ren Gill: Jane Doe (150)
+   - Jane Doe vs Eric Idle: Eric Idle (30)
+   - Jane Doe vs None of the above: None of the above (60)
+   - John Smith vs Ren Gill: John Smith (120)
+   - John Smith vs Eric Idle: John Smith (90)
+   - John Smith vs None of the above: None of the above (90)
+   - Ren Gill vs Eric Idle: Ren Gill (120)
+   - Ren Gill vs None of the above: Ren Gill (90)
+   - Eric Idle vs None of the above: Eric Idle (120)
+Removed due to losing to None of the Above:
+   - John Smith
+   - Jane Doe
+   - None of the above
+Winners (in no particular order):
+   - Ren Gill
