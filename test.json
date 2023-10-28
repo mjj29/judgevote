@@ -1,0 +1,11 @@
+{
+	"positions": 1,
+	"candidates": {
+		"a":"Jane Doe",
+		"b":"John Smith",
+		"c":"Ren Gill",
+		"d":"Eric Idle",
+		"e":"None of the above"
+	},
+	"votefile": "votes.json"
+}
