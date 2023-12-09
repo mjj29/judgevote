@@ -1,0 +1,10 @@
+{
+	"positions": 1,
+	"candidates": {
+		"a":"UK Magic Officials",
+		"b":"International Program",
+		"c":"Another UK body",
+		"d":"Unincorporated"
+	},
+	"votefile": "magicofficialsballots.json"
+}
