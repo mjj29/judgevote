@@ -107,6 +107,7 @@ class VoteMain(object):
 			print("   - %s: %s" % (k, self.config['candidates'][k]))
 		print("Number of winners: %s" % self.config['positions'])
 		if self.calculator: pprint.pprint(self.calculator.as_dict())
+		print("Total number of votes cast: %s"%sum(item["count"] for item in self.ballots))
 		print("Pairwise results:")
 		for k in sorted(self.pairWiseResults.keys()):
 			(a, b) = k
