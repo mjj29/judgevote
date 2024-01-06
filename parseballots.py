@@ -30,10 +30,11 @@ class ParseMain(object):
 	def convertCSV(self, csvdata):
 		ballots = {}
 		for r in csvdata:
+			if len(r)<2: continue
 			if r[0]=="Timestamp" or r[1]=="test@matthew.ath.cx": continue
-			ranks = [[],[],[],[]]
-			for (label, pos) in [('a', 2), ('b', 3), ('c', 4), ('d', 5)]:
-				rank = int(r[pos].replace("Rank ", "") if r[pos] else 4)
+			ranks = [[],[],[],[],[],[],[],[],[],[],[],[]]
+			for (label, pos) in [('a', 3), ('b', 4), ('c', 5), ('d', 6), ('e', 7), ('f', 8), ('g', 9), ('h', 10), ('i', 11), ('j', 12), ('k', 13)]:
+				rank = int(r[pos].replace("Rank ", "") if r[pos] else 11)
 				ranks[rank-1].append(label)
 			ballots[str(ranks)] = (ranks, ballots.get(str(ranks), (ranks, 0))[1]+1)
 		return [

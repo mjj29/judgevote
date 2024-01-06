@@ -1,0 +1,17 @@
+{
+	"positions": 5,
+	"candidates": {
+		"a":"Hary",
+		"b":"Winter",
+		"c":"Alistair Crook",
+		"d":"Jonny Ollie Dey",
+		"e":"Matthew Johnson",
+		"f":"Ruth Macgregor",
+		"g":"Thomas Ralph",
+		"h":"Phil Scutter-Cairns",
+		"i":"Gareth Tanner",
+		"j":"Owen Todd",
+		"k":"None of the above"
+	},
+	"votefile": "mouk-election-ballots.json"
+}
